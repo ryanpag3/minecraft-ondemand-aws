@@ -1,0 +1,26 @@
+{
+  "name": "minecraft-ondemand-aws",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "git@github.com:ryanpag3/minecraft-ondemand-aws.git",
+  "author": "Ryan Page <ryanapage@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "watch": "tsnd --notify=false src/index.ts"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.686.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "log4js": "^6.3.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.6",
+    "ts-node-dev": "^1.0.0-pre.44"
+  }
+}
